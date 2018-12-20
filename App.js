@@ -24,7 +24,7 @@ export default class App extends Component {
     );
   };
   render() {
-    const { isLoaded } = this.state;
+    const { isLoaded ,error} = this.state;
     return (
       <View style={styles.container}>
         <StatusBar hidden={true} />
